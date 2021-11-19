@@ -23,6 +23,7 @@ void		ft_strlen_test();
 int			ft_read(char *str, int lenght);
 void		ft_tolower_test();
 void		ft_toupper_test();
-
+void		ft_itoa_test();
+void		ft_isalpha_test();
 
 #endif
