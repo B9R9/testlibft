@@ -6,7 +6,7 @@
 #    By: briffard <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/16 08:08:13 by briffard          #+#    #+#              #
-#    Updated: 2021/11/18 16:22:21 by briffard         ###   ########.fr        #
+#    Updated: 2021/11/19 11:47:50 by briffard         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,9 +16,10 @@ TEST=libtest.a
 TESTFILE=	ft_putchar_test.c		ft_newline_test.c		ft_separation_test.c	\
 			ft_putchar_fd_test.c	ft_putstr_test.c		ft_putstr_fd_test.c		\
 			ft_putendl_test.c		ft_putendl_fd_test.c	ft_putnbr_test.c		\
-			ft_putnbr_fd_test.c		ft_strlen_test.c		ft_fgets.c				\
+			ft_putnbr_fd_test.c		ft_strlen_test.c		ft_fgets_test.c			\
 			ft_tolower_test.c		ft_toupper_test.c		ft_atoi_test.c			\
-			ft_isalpha_test.c		ft_itoa_test.c
+			ft_isalpha_test.c		ft_itoa_test.c			ft_press_enter.c		\
+
 
 FILES=	ft_putchar.c	ft_putchar_fd.c		ft_putendl.c		ft_tolower.c		\
 		ft_putendl_fd.c	ft_putnbr.c			ft_putnbr_fd.c		ft_toupper.c		\
