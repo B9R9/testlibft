@@ -49,8 +49,8 @@ switch(userchoice)
 		printf("9  - FT_STRLEN\n");
 		printf("10 - FT_ATOI\n");
 		printf("To return to the main menu Press 0\n");
-		ft_newline(); 
-		printf("Your choice? "); // option for typing the name of the function if we do that we need to pass every letter to upper or lower to avoid mistake typing 
+		ft_newline();
+		printf("Your choice? "); // option for typing the name of the function if we do that we need to pass every letter to upper or lower to avoid mistake typing
 		scanf("%d", &functionchoice);
 		switch(functionchoice)
 		{
@@ -103,13 +103,18 @@ switch(userchoice)
 				ft_toupper_test();
 				break;
 			case 13:
-			ft_newline();
-			ft_isalpha_test();
+				ft_newline();
+				ft_isalpha_test();
+				break;
+			case 14:
+				ft_newline();
+				ft_itoa_test();
+				break;
 			break;
 		}
 		}while(functionchoice != 0);
 		break;
-		
+
 }
 }while(userchoice != 0);
 }
