@@ -102,6 +102,10 @@ switch(userchoice)
 				ft_newline();
 				ft_toupper_test();
 				break;
+			case 13:
+			ft_newline();
+			ft_isalpha_test();
+			break;
 		}
 		}while(functionchoice != 0);
 		break;
