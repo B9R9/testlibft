@@ -1,11 +1,6 @@
 #include "libft.h"
 #include "testlibft.h"
 
-/*static void	ft_newline()
-{
-	ft_putchar('\n');
-}
-*/
 int main()
 {
 	int	userchoice;

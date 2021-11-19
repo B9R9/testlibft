@@ -25,5 +25,6 @@ void		ft_tolower_test();
 void		ft_toupper_test();
 void		ft_itoa_test();
 void		ft_isalpha_test();
+void		ft_press_enter();
 
 #endif
