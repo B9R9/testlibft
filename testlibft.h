@@ -26,5 +26,26 @@ void		ft_toupper_test();
 void		ft_itoa_test();
 void		ft_isalpha_test();
 void		ft_press_enter();
+void		ft_bzero_test();
+void		ft_isalnum_test();
+void		ft_isascii_test();
+void		ft_isdigit_test();
+void		ft_isprint_test();
+void		ft_memccpy_test();
+void		ft_memcpy_test();
+void		ft_memset_test();
+void		ft_strcat_test();
+void		ft_strcat_test();
+void		ft_strchr_test();
+void		ft_strcmp_test();
+void		ft_strcpy_test();
+void		ft_strdup_test();
+void		ft_strlcat_test();
+void		ft_strncat_test();
+void		ft_strncmp_test();
+void		ft_strncpy_test();
+void		ft_strnstr_test();
+void		ft_strrchr_test();
+void		ft_strstr_test();
 
 #endif
