@@ -21,18 +21,20 @@ printf("ask you to participate. So be ready and let's start !\n");
 
 //Use  do while to create a loop for the menu until we decide to quit
 ft_putchar('\n');
+do{
 printf("**********************************  MENU ***********************************\n");
 printf("---- To choose your function to test.                Press 1\n");
 printf("---- To test all function from the part1.            Press 2\n");
 printf("---- To test all functions from the part 2.          Press 3\n");
 printf("---- To test everything.                             Press 4\n");
-printf("---- To exit.                                        Press 5\n");
+printf("---- To exit.                                        Press 0\n");
 printf("Your choice ? ");
 scanf("%d", &userchoice);// Need safety in case the return is not expected
 
 switch(userchoice)
 {
 	case 1:
+		do{
 		ft_newline();
 		// we can use an arr with all function name sorted by alphabetic order and a while loop to print
 		printf("Choose the function:\n\n");
@@ -45,7 +47,8 @@ switch(userchoice)
 		printf("7  - FT_PUTNBR\n");
 		printf("8  - FT_PUTNBR_FD\n");
 		printf("9  - FT_STRLEN\n");
-		printf("10 - FT_test\n");
+		printf("10 - FT_ATOI\n");
+		printf("To return to the main menu Press 0\n");
 		ft_newline(); 
 		printf("Your choice? "); // option for typing the name of the function if we do that we need to pass every letter to upper or lower to avoid mistake typing 
 		scanf("%d", &functionchoice);
@@ -89,6 +92,7 @@ switch(userchoice)
 				break;
 			case 10:
 				ft_newline();
+				ft_atoi_test();
 				break;
 			case 11:
 				ft_newline();
@@ -98,9 +102,10 @@ switch(userchoice)
 				ft_newline();
 				ft_toupper_test();
 				break;
-				
 		}
+		}while(functionchoice != 0);
 		break;
 		
 }
+}while(userchoice != 0);
 }
