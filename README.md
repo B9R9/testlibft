@@ -16,3 +16,8 @@ Other functions present :
 19 November:
 Baptiste : modification of testlibft.c
 I have added two do while loop to make tha navigation easier with the menu
+ADD: isalpha_test.c
+
+UPDATE: - Makefile for isalpha test
+        - testlibft.c for isalpha test
+      
