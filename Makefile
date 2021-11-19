@@ -18,12 +18,12 @@ TESTFILE=	ft_putchar_test.c		ft_newline_test.c		ft_separation_test.c	\
 			ft_putendl_test.c		ft_putendl_fd_test.c	ft_putnbr_test.c		\
 			ft_putnbr_fd_test.c		ft_strlen_test.c		ft_fgets.c				\
 			ft_tolower_test.c		ft_toupper_test.c		ft_atoi_test.c			\
-			ft_isalpha_test.c
+			ft_isalpha_test.c		ft_itoa_test.c
 
 FILES=	ft_putchar.c	ft_putchar_fd.c		ft_putendl.c		ft_tolower.c		\
 		ft_putendl_fd.c	ft_putnbr.c			ft_putnbr_fd.c		ft_toupper.c		\
 		ft_putstr.c		ft_putstr_fd.c		ft_strlen.c			ft_atoi.c			\
-		ft_isalpha.c
+		ft_isalpha.c	ft_itoa.c
 
 OBJ=$(SRC:.c=.o)
 
