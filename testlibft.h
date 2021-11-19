@@ -7,7 +7,7 @@
 # include<stdio.h>
 # include<string.h>
 # include<fcntl.h>
-# include "libft.h"
+//# include "libft.h"
 
 void		test_ft_putchar();
 void		ft_newline();
