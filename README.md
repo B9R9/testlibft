@@ -22,10 +22,14 @@ UPDATE: - Makefile for isalpha test
         - testlibft.c for isalpha test
 
 
-Gabor : added ft_itoa_test.c (case 14)
-        corrected case 13 in testlibft.c
-        added strjoin test
+Gabor:  - added ft_itoa_test.c (case 14)
+        - corrected case 13 in testlibft.c
+        -  added strjoin test
 
+21 November:
+
+Gabor:
+	- updated testlib.c with more cases
 -----------------------------------------------
 FUNCTION                       MARK
 
