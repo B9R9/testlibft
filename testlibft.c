@@ -105,6 +105,90 @@ switch(userchoice)
 				ft_newline();
 				ft_itoa_test();
 				break;
+			case 15:
+				ft_newline();
+				ft_strjoin_test();
+				break;
+			case 16:
+				ft_newline();
+				ft_bzero_test();
+				break;
+			case 17:
+				ft_newline();
+				ft_isalnum_test();
+				break;
+			case 18:
+				ft_newline();
+				ft_isascii_test();
+				break;
+			case 19:
+				ft_newline();
+				ft_isdigit_test();
+				break;
+			case 20:
+				ft_newline();
+				ft_isprint_test();
+				break;
+			case 21:
+				ft_newline();
+				ft_memccpy_test();
+				break;
+			case 22:
+				ft_newline();
+				ft_memcpy_test();
+				break;
+			case 23:
+				ft_newline();
+				ft_memset_test();
+				break;
+			case 24:
+				ft_newline();
+				ft_strcat_test();
+				break;
+			case 25:
+				ft_newline();
+				ft_strchr_test();
+				break;
+			case 26:
+				ft_newline();
+				ft_strcmp_test();
+				break;
+			case 27:
+				ft_newline();
+				ft_strcpy_test();
+				break;
+			case 28:
+				ft_newline();
+				ft_strdup_test();
+				break;
+			case 29:
+				ft_newline();
+				ft_strlcat_test();
+				break;
+			case 30:
+				ft_newline();
+				ft_strncat_test();
+				break;
+			case 31:
+				ft_newline();
+				ft_strncmp_test();
+				break;
+			case 32:
+				ft_newline();
+				ft_strncpy_test();
+				break;
+			case 33:
+				ft_newline();
+				ft_strnstr_test();
+				break;
+			case 34:
+				ft_newline();
+				ft_strrchr_test();
+				break;
+			case 35:
+				ft_newline();
+				ft_strstr_test();
+				break;
 			break;
 		}
 		}while(functionchoice != 0);
