@@ -189,6 +189,10 @@ switch(userchoice)
 				ft_newline();
 				ft_strstr_test();
 				break;
+			case 36:
+				ft_newline();
+				ft_strequ_test():
+				break;
 			break;
 		}
 		}while(functionchoice != 0);
