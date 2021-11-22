@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	strcmp_test()
 {
 	char s1[50] = "ca vous dirait une ice cream avec mon ami et moi ?";

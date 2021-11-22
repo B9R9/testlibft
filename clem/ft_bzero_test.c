@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	bzero_test()
 {
 	char s1[] = "une baguette, merci !";

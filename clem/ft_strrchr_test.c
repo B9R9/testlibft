@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	strrchr_test()
 {
 	char s1[50] = "Oh oui monsieur oh oui";

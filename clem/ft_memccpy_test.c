@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	memccpy()
 {
 	char s1[30];

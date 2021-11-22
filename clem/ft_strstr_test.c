@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	strstr_test()
 {
 	char s1[50] = "petit pique-nique";

@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	isprint_test()
 {
 	char c = '9';

@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	strncpy_test()
 {
 	char s1[50];

@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	strncat_test()
 {
 	char s1[25] = "Merguez";
