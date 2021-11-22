@@ -47,6 +47,7 @@ void		ft_strncpy_test();
 void		ft_strnstr_test();
 void		ft_strrchr_test();
 void		ft_strstr_test();
-void		strequ_test()
+void		ft_strequ_test();
+void		ft_atoi_test();
 
 #endif
