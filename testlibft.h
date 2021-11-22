@@ -49,5 +49,6 @@ void		ft_strrchr_test();
 void		ft_strstr_test();
 void		ft_strequ_test();
 void		ft_atoi_test();
+void		memcpy_test();
 
 #endif
