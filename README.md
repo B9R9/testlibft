@@ -31,6 +31,11 @@ Gabor:  - added ft_itoa_test.c (case 14)
 Gabor:
 	- updated testlib.c with more cases
 
+22 November:
+Baptiste:
+	- Add more test for bzero / strjoin / isascii
+	- Nedd more test for isdigit /is alnum / is print
+
 -----------------------------------------------
 FUNCTION                       MARK
 
