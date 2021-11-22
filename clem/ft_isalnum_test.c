@@ -1,4 +1,3 @@
-#include"libft.h"
 #include"testlibft.h"
 
 void	isalnum_test()

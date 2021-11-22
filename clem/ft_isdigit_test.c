@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	isdigit()
 {
 	char c = '9';

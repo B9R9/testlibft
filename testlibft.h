@@ -7,7 +7,7 @@
 # include<stdio.h>
 # include<string.h>
 # include<fcntl.h>
-//# include "libft.h"
+# include "libft.h"
 
 void		test_ft_putchar();
 void		ft_newline();
@@ -47,5 +47,7 @@ void		ft_strncpy_test();
 void		ft_strnstr_test();
 void		ft_strrchr_test();
 void		ft_strstr_test();
+void		ft_strequ_test();
+void		ft_atoi_test();
 
 #endif

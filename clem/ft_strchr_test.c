@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	strchr_test()
 {
 	char s1[50] = "Mais a la vie, je dit oui";

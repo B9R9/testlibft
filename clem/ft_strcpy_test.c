@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	strcpy_test()
 {
 	char s1[50] = "BONSOIR MULHOUSE";

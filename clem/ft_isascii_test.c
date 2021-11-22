@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void 	isascii_test()
 {
 	char c = '!';
@@ -6,7 +8,7 @@ void 	isascii_test()
 	printf("%c isascii = %d        ft_isascii = %d\n", c, isascii(a), ft_isascii(a));
 	return (0);
 }
-				
+
 
 void	ft_isascii_test()
 {

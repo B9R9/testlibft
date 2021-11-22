@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	strncmp_test()
 {
 	char s1[50] = "une wiche lorraine";

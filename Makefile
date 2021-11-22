@@ -26,6 +26,7 @@ TESTFILE=	ft_putchar_test.c		ft_newline_test.c		ft_separation_test.c	\
 			ft_strcpy_test.c		ft_strdup_test.c		ft_strlcat_test.c		\
 			ft_strncat_test.c		ft_strncmp_test.c		ft_strncpy_test.c		\
 			ft_strnstr_test.c		ft_strrchr_test.c		ft_strstr_test.c		\
+			ft_strequ_test.c
 
 
 FILES=	ft_putchar.c	ft_putchar_fd.c		ft_putendl.c		ft_tolower.c		\
@@ -33,7 +34,7 @@ FILES=	ft_putchar.c	ft_putchar_fd.c		ft_putendl.c		ft_tolower.c		\
 		ft_putstr.c		ft_putstr_fd.c		ft_strlen.c			ft_atoi.c			\
 		ft_isalpha.c	ft_itoa.c			ft_strjoin.c		ft_bzero.c			\
 		ft_isalnum.c	ft_isascii.c		ft_isdigit.c		ft_isprint.c		\
-		ft_memccpy.c	ft_memcpy.c			ft_memset_test.c	\
+		ft_memccpy.c	ft_memcpy.c			ft_memset_test.c	ft_strequ.c\
 		ft_strcat.c		ft_strchr.c			ft_strcmp.c		\
 		ft_strcpy.c		ft_strdup.c			ft_strlcat.c	\
 		ft_strncat.c	ft_strncmp.c		ft_strncpy.c	\

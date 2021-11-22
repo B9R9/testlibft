@@ -1,3 +1,5 @@
+#include"testlibft.h"
+
 void	memset_test()
 {
 	char s1[25] = "Un couscous complet harissa";
