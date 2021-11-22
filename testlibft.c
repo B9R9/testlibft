@@ -129,7 +129,7 @@ switch(userchoice)
 				ft_newline();
 				ft_isprint_test();
 				break;
-			case 21:
+/*			case 21:
 				ft_newline();
 				ft_memccpy_test();
 				break;
@@ -191,8 +191,9 @@ switch(userchoice)
 				break;
 			case 36:
 				ft_newline();
-				ft_strequ_test():
+				ft_strequ_test();
 				break;
+				*/
 			break;
 		}
 		}while(functionchoice != 0);
