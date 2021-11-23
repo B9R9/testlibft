@@ -20,6 +20,7 @@ void		ft_putendl_fd_test();
 void		ft_putnbr_test();
 void		ft_putnbr_fd_test();
 void		ft_strlen_test();
+void		ft_strjoin_test();
 int			ft_read(char *str, int lenght);
 void		ft_tolower_test();
 void		ft_toupper_test();
@@ -49,6 +50,7 @@ void		ft_strrchr_test();
 void		ft_strstr_test();
 void		ft_strequ_test();
 void		ft_atoi_test();
-void		memcpy_test();
+void		ft_strnequ_test();
+void		ft_strtrim_test();
 
 #endif
