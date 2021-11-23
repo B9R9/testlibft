@@ -1,4 +1,4 @@
-#include "libft.h"
+
 #include "testlibft.h"
 
 void	strequ_test()
