@@ -33,16 +33,16 @@ switch(userchoice)
 		ft_newline();
 		// we can use an arr with all function name sorted by alphabetic order and a while loop to print
 		printf("Choose the function:\n\n");
-		printf("1  - FT_PUTCHAR		11 - FT_TOLOWER		21 - FT_MEMCCPY		31 - FT_STRNCMP		41 - FT_		51 - FT_\n");
-		printf("2  - FT_PUTCHAR_FD	12 - FT_TOUPPER		22 - FT_MEMCPY		32 - FT_STRNCPY		42 - FT_		52 - FT_\n");
-		printf("3  - FT_PUTSTR		13 - FT_ISALPH		23 - FT_MEMSET		33 - FT_STRNSTR		43 -FT_\n");
-		printf("4  - FT_PUTSTR_FD	14 - FT_ITOA		24 - FT_STRCAT		34 - FT_STRRCHR		44 - FT_\n");
-		printf("5  - FT_PUTENDL		15 - FT_STRJOIN		25 - FT_STRCHR		35 - FT_STRSTR		45 - FT_\n");
-		printf("6  - FT_PUTENDL_FD	16 - FT_BZERO		26 - FT_STRCMP		36 - FT_STREQU		46 - FT_\n");
-		printf("7  - FT_PUTNBR		17 - FT_ISALNUM		27 - FT_STRCPY		37 - FT STRNEQU_	47 - FT_\n");
-		printf("8  - FT_PUTNBR_FD	18 - FT_ISACII		28 - FT_STRDUP		38 - FT_STRTRIM		48 - FT__\n");
-		printf("9  - FT_STRLEN		19 - FT_ISDIGIT		29 - FT_STRLCAT		39 - FT_			49 - FT_\n");
-		printf("10 - FT_ATOI		20 - FT_ISPRINT		30 - FT_STRNCAT		40 - FT_			50 - FT_\n");
+		printf("1  - FT_PUTCHAR		11 - FT_TOLOWER		21 - FT_MEMCCPY		31 - FT_STRNCMP		41 - FT_STRNEW		51 - FT_\n");
+		printf("2  - FT_PUTCHAR_FD	12 - FT_TOUPPER		22 - FT_MEMCPY		32 - FT_STRNCPY		42 - FT_STRSUB		52 - FT_\n");
+		printf("3  - FT_PUTSTR		13 - FT_ISALPH		23 - FT_MEMSET		33 - FT_STRNSTR		43 - FT_STRITER\n");
+		printf("4  - FT_PUTSTR_FD	14 - FT_ITOA		24 - FT_STRCAT		34 - FT_STRRCHR		44 - FT_STRITERI\n");
+		printf("5  - FT_PUTENDL		15 - FT_STRJOIN		25 - FT_STRCHR		35 - FT_STRSTR		45 - FT_MEMALLOC\n");
+		printf("6  - FT_PUTENDL_FD	16 - FT_BZERO		26 - FT_STRCMP		36 - FT_STREQU		46 - FT_MEMCHR\n");
+		printf("7  - FT_PUTNBR		17 - FT_ISALNUM		27 - FT_STRCPY		37 - FT STRNEQU		47 - FT_MEMCMP\n");
+		printf("8  - FT_PUTNBR_FD	18 - FT_ISACII		28 - FT_STRDUP		38 - FT_STRTRIM		48 - FT_MEMDEL\n");
+		printf("9  - FT_STRLEN		19 - FT_ISDIGIT		29 - FT_STRLCAT		39 - FT_STRCLR		49 - FT_MEMMOVE\n");
+		printf("10 - FT_ATOI		20 - FT_ISPRINT		30 - FT_STRNCAT		40 - FT_STRDEL		50 - FT_\n");
 		printf("\nTo return to the main menu Press 0\n");
 		ft_newline();
 		printf("Your choice? "); // option for typing the name of the function if we do that we need to pass every letter to upper or lower to avoid mistake typing
@@ -200,6 +200,49 @@ switch(userchoice)
 				ft_newline();
 				ft_strtrim_test();
 			break;
+			case 39:
+				ft_newline();
+				ft_strclr_test();
+			case 40:
+				ft_newline();
+				ft_strdel_test();
+				break;
+			case 41:
+				ft_newline();
+				ft_strnew_test();
+				break;
+			case 42:
+				ft_newline();
+				ft_strsub_test();
+				break;
+			case 43:
+				ft_newline();
+				ft_striter_test();
+				break;
+			case 44:
+				ft_newline();
+				ft_striteri_test();
+				break;
+			case 45:
+				ft_newline();
+				ft_memalloc_test();
+				break;
+			case 46:
+				ft_newline();
+				ft_memchr_test();
+				break;
+			case 47:
+				ft_newline();
+				ft_memcmp_test();
+				break;
+			case 48:
+				ft_newline();
+				ft_memdel_test();
+				break;
+			case 49:
+				ft_newline();
+				ft_memmove_test();
+				break;
 		}
 		}while(functionchoice != 0);
 		break;
