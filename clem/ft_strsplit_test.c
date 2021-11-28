@@ -1,21 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strsplit.c                                      :+:      :+:    :+:   */
+/*   ft_strsplit_test.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 20:53:57 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/27 22:55:07 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/11/28 15:27:49 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include "testlibft.h"
+
+static void			ft_print(char **tabstr)
+{
+	int	i = 0;
+	while (tabstr[i] != NULL)
+	{
+		printf("%s\t%u\n", tabstr[i], i);
+		i++;
+	}
+	i = 0;
+	while (tabstr[i] != NULL)
+	{
+		free(tabstr[i]);
+		i++;
+	}
+	tabstr = NUL
+}
 
 void	strsplit_test()		
 {
-	char	*str = "**Toi qui voulait *** Toi qui**voulait*!";
 	char	**split;
+	char    *str = "**Toi qui voulait *** Toi qui**voulait*!";
 	char	*strempty = "          ";
 	char	*strdash = "In/////viata /derapezi// Mai repede decat crezi//// Pe strada, in parcuri sau canale /Vezi destule dovezi////";
 	char	*strspace = "Lunettes Cartier comme Tee Grizzley J'arrive lourd comme     dix grizzlis,  il m'faut     un salaire comme si j'joue chez  les    Grizzlies";
@@ -45,26 +63,6 @@ void	strsplit_test()
 	printf("test 6 i original :%s\n", str); 
 	split = ft_strsplit(stri, 'i');
 	ft_print(split);
-	
-	return(0);
-
-}
-
-static void			ft_print(char **tabstr)
-{
-	int	i = 0;
-	while (tabstr[i] != NULL)
-	{
-		printf("%s\t%u\n", tabstr[i], i);
-		i++;
-	}
-	i = 0;
-	while (tabstr[i] != NULL)
-	{
-		free(tabstr[i]);
-		i++;
-	}
-	tabstr = NUL
 }
 
 void	ft_strsplit_test()

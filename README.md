@@ -40,6 +40,12 @@ Baptiste:
 Baptiste:
 ADD : memccpy_test.c, memcpy_test.c, memset_test.c, strcat_test.c,strchr_test.c, strcmp_test.c,strcpy_test.c,strlcat__test.c, strdup_test.c, strncat_test.c, strncmp_test.c, strncpy_test.c, strnstr_test.c, strrchr_test.c,strstr_test.c, strequ_test.c,strnequ_test.c,strtrim_test.c
 
+27 + 28 November (do you still remember ...)
+Clement de Cariou
+All changes have been put in the clem folder
+ADD : strsplit_test.c strmap_test strmapi_test and new version of testlibft.h (organize by part and add all the function)
+CORRECTION : memcpy_test and memset_test ( add typecast to printf ex : (char *) memcpy ect ect)
+ 
 -----------------------------------------------
 FUNCTION                       MARK
 
