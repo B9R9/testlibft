@@ -1,95 +1,32 @@
 # testlibft
 
-18 November:
-Baptiste: Sharing the testlibft.c and testfile for:
-- ft_strlen
-- ft_putnbr
-- ft_toupper
-- ft_tolower
+Simple tester with a simple goal in mind : test function for a library project.
+:warning Tests are not official, just to give an idea of your results. Do your own for more accuracy. :warning
+<img align="right" src="./img/img_one.png" width="50%"/>
 
-Other functions present :
-- ft_check_fd.   --> Looking for a word in a file
-- ft_gets.       --> Rebuilds fgets function and changing \n by a \0
-- ft_newline.    --> add a new line
-- ft_separation  --> take an int as param and display n '='
+##Installation
+![Alt Text](https://media.giphy.com/media/8R4kKwQ4VH4pG/giphy.gif)
+Clone on your computer
+'''bash
+git@github.com:B9R9/testlibft.git
+'''
 
-19 November:
-Baptiste : modification of testlibft.c
-I have added two do while loop to make tha navigation easier with the menu
-ADD: isalpha_test.c
+Paste your libft files in the srcs directory.
+<img src="./img/img_two.png" width="50%"/>
 
-UPDATE: - Makefile for isalpha test
-        - testlibft.c for isalpha test
+Add your header files to the tests directory.
+<img src="./img/img_three.png" width="50%"/>  
+
+Launch the program
+'''bash
+make run
+'''
+Have fun with it.
 
 
-Gabor:  - added ft_itoa_test.c (case 14)
-        - corrected case 13 in testlibft.c
-        -  added strjoin test
+### Contributors
+- Baptiste (https://github.com/B9R9)
+- Gabor (https://github.com/mobahug)
+- Clement (https://github.com/wdclem)
 
-21 November:
-
-Gabor:
-	- updated testlib.c with more cases
-
-22 November:
-Baptiste:
-	- Add more test for bzero / strjoin / isascii
-	- Nedd more test for isdigit /is alnum / is print
-
------------------------------------------------
-FUNCTION                       MARK
-
-ft_atoi.c                       []
-ft_bzero.c                      [ x ]
-ft_isalnum.c                    [ x ]
-ft_isalpha.c                    [ x ]
-ft_isascii.c                    [ x ]
-ft_isdigit.c                    [ x ]
-ft_isprint.c                    [ x ]
-ft_isspace.c                    []
-ft_itoa.c                       [ x ]
-ft_memalloc.c                   []
-ft_memccpy.c                    [ x ]
-ft_memchr.c                     []
-ft_memcmp.c                     []
-ft_memcpy.c                     [ x ]
-ft_memdel.c                     []
-ft_memmove.c                    []
-ft_memset.c                     [ x ]
-ft_putchar.c                    [ x ]
-ft_putchar_fd.c                 [ x ]
-ft_putendl.c                    [ x ]
-ft_putendl_fd.c                 [ x ]
-ft_putnbr.c                     [ x ]
-ft_putnbr_fd.c                  [ x ]
-ft_putstr.c                     [ x ]
-ft_putstr_fd.c                  [ x ]
-ft_strcat.c                     [ x ]
-ft_strchr.c                     [ x ]
-ft_strclr.c                     []
-ft_strcmp.c                     [ x ]
-ft_strcpy.c                     [ x ]
-ft_strdel.c                     []
-ft_strdup.c                     [ x ]
-ft_strequ.c                     [ x ]
-ft_striter.c                    []
-ft_striteri.c                   []
-ft_strjoin.c                    [ x ]
-ft_strlcat.c                    [ x ]
-ft_strlen.c                     [ x ]
-ft_strmap.c                     []
-ft_strmapi.c                    []
-ft_strncat.c                    [ x ]
-ft_strncmp.c                    [ x ]
-ft_strncpy.c                    [ x ]
-ft_strnequ.c                    []
-ft_strnew.c                     []
-ft_strnstr.c                    [ x ]
-ft_strrchr.c                    [ x ]
-ft_strsplit.c                   []
-ft_strstr.c                     [ x ]
-ft_strsub.c                     []
-ft_strtrim.c                    []
-ft_tolower.c                    [ x ]
-ft_toupper.c                    [ x ]
-
+![Alt Text](https://media.giphy.com/media/2nzUAOGw3i7w4/giphy.gif
