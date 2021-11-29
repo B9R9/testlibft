@@ -12,9 +12,9 @@ Simple tester with a simple goal in mind : test function for a library project.
 
 Clone on your computer
 
-'''
+```bash
 git@github.com:B9R9/testlibft.git
-'''
+```
 
 Paste your libft files in the srcs directory.
 <img src="./img/img_two.png" width="50%"/>
@@ -24,9 +24,9 @@ Add your header files to the tests directory.
 
 Launch the program
 
-'''
+```bash
 make run
-'''
+```
 Have fun with it.
 
 
