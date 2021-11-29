@@ -2,10 +2,13 @@
 
 Simple tester with a simple goal in mind : test function for a library project.
 :warning Tests are not official, just to give an idea of your results. Do your own for more accuracy. :warning
-<img align="right" src="./img/img_one.png" width="50%"/>
+
+<img src="./img/img_one.png" width="50%"/>
 
 ##Installation
+
 ![Alt Text](https://media.giphy.com/media/8R4kKwQ4VH4pG/giphy.gif)
+
 Clone on your computer
 '''bash
 git@github.com:B9R9/testlibft.git
@@ -29,4 +32,4 @@ Have fun with it.
 - Gabor (https://github.com/mobahug)
 - Clement (https://github.com/wdclem)
 
-![Alt Text](https://media.giphy.com/media/2nzUAOGw3i7w4/giphy.gif
+![Alt Text](https://media.giphy.com/media/2nzUAOGw3i7w4/giphy.gif)
