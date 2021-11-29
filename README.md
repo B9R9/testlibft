@@ -11,7 +11,8 @@ Simple tester with a simple goal in mind : test function for a library project.
 ![Alt Text](https://media.giphy.com/media/8R4kKwQ4VH4pG/giphy.gif)
 
 Clone on your computer
-'''bash
+
+'''
 git@github.com:B9R9/testlibft.git
 '''
 
@@ -22,7 +23,8 @@ Add your header files to the tests directory.
 <img src="./img/img_three.png" width="50%"/>  
 
 Launch the program
-'''bash
+
+'''
 make run
 '''
 Have fun with it.
