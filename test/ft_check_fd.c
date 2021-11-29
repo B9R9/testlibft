@@ -35,4 +35,4 @@ void		ft_checkfd()
 int main()
 {
 	ft_checkfd();
-}
+open}

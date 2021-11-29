@@ -62,12 +62,12 @@ void	memcpy_test()
 	s22 = malloc(sizeof(*s24));
 	s21 = malloc(sizeof(*s23));
 
-	printf("__SYSTEM__TEST_1__:\t %s \t\t __YOURS__:\t%s\n", (char *)memcpy(s2, s4, 3), (char *)ft_memcpy(s1, s3, 3));
-	printf("__SYSTEM__TEST_2__:\t %s \t\t __YOURS__:\t%s\n", (char *)memcpy(s6, s8, 3), (char *)ft_memcpy(s5, s7, 3));
-	printf("__SYSTEM__TEST_3__:\t %s \t\t __YOURS__:\t%s\n", (char *)memcpy(s10, s12, 3), (char *)ft_memcpy(s9, s11, 3));
-	printf("__SYSTEM__TEST_4__:\t %s \t\t __YOURS__:\t%s\n", (char *)memcpy(s14, s16, 3), (char *)ft_memcpy(s13, s15, 3));
-	printf("__SYSTEM__TEST_5__:\t %s \t\t __YOURS__:\t%s\n", (char *)memcpy(s18, s20, 3), (char *)ft_memcpy(s17, s19, 3));
-	printf("__SYSTEM__TEST_6__:\t %s \t\t __YOURS__:\t%s\n", (char *)memcpy(s22, s24, 3), (char *)ft_memcpy(s21, s23, 3));
+	printf("__SYSTEM__TEST_1__:\t %s \t\t __YOURS__:\t%s\n", memcpy(s2, s4, 3), ft_memcpy(s1, s3, 3));
+	printf("__SYSTEM__TEST_2__:\t %s \t\t __YOURS__:\t%s\n", memcpy(s6, s8, 3), ft_memcpy(s5, s7, 3));
+	printf("__SYSTEM__TEST_3__:\t %s \t\t __YOURS__:\t%s\n", memcpy(s10, s12, 3), ft_memcpy(s9, s11, 3));
+	printf("__SYSTEM__TEST_4__:\t %s \t\t __YOURS__:\t%s\n", memcpy(s14, s16, 3), ft_memcpy(s13, s15, 3));
+	printf("__SYSTEM__TEST_5__:\t %s \t\t __YOURS__:\t%s\n", memcpy(s18, s20, 3), ft_memcpy(s17, s19, 3));
+	printf("__SYSTEM__TEST_6__:\t %s \t\t __YOURS__:\t%s\n", memcpy(s22, s24, 3), ft_memcpy(s21, s23, 3));
 
 }
 

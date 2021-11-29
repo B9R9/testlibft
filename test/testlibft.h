@@ -52,5 +52,18 @@ void		ft_strequ_test();
 void		ft_atoi_test();
 void		ft_strnequ_test();
 void		ft_strtrim_test();
-
+void		ft_strclr_test();
+void		ft_strdel_test();
+void		ft_strnew_test();
+void		ft_strsub_test();
+void		ft_striter_test();
+void		ft_striteri_test();
+void		ft_memalloc_test();
+void		ft_memchr_test();
+void		ft_memcmp_test();
+void		ft_memdel_test();
+void		ft_memmove_test();
+void		ft_strmap_test();
+void		ft_strmapi_test();
+void		ft_strsplit_test();
 #endif
