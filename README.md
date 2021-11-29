@@ -2,7 +2,7 @@
 
 Simple tester with a simple goal in mind : test function for a library project.
 
-⚠️  Tests are not official ⚠️ , just to give an idea of your results. Do your own for more accuracy. :warning
+⚠️  Tests are not official ⚠️ , just to give an idea of your results. Do your own for more accuracy.
 
 <img src="./img/img_one.png" width="50%"/>
 
