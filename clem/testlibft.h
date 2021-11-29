@@ -9,85 +9,62 @@
 # include<fcntl.h>
 # include "libft.h"
 
-/*
- * Printing functions
-*/
-void	test_ft_putchar();
-void	ft_putchar_test();
-void	ft_putstr_test();
-void	ft_putnbr_test();
-void	ft_putendl_test();
-void	ft_putchar_fd_test();
-void	ft_putstr_fd_test();
-void	ft_putendl_fd_test();
-void	ft_putnbr_fd_test();
-
-/*
- * Libc functions
-*/
-
-void	*ft_memset_test();
-void	ft_bzero_test();
-void	*ft_memcpy_test();
-void	*ft_memccpy_test();
-void	*ft_memmove_test();
-void	*ft_memchr_test();
-int		ft_memcmp_test();
-size_t	ft_strlen_test();
-char	*ft_strdup_test();
-char	*ft_strcpy_test();
-char	*ft_strncpy_test();
-char	*ft_strcat_test();
-char	*ft_strncat_test();
-size_t	ft_strlcat_test();
-char	*ft_strchr_test();
-char	*ft_strrchr_test();
-char	*ft_strstr_test();
-char	*ft_strnstr_test();
-int		ft_strcmp_test();
-int		ft_strncmp_test();
-int		ft_atoi_test();
-int		ft_isalpha_test();
-int		ft_isdigit_test();
-int		ft_isalnum_test();
-int		ft_isascii_test();
-int		ft_isprint_test();
-int		ft_toupper_test();
-int		ft_tolower_test();
-
-/*
- * Second part functions
-*/
-
-void	*ft_memalloc_test();
-void	ft_memdel_test();
-char	*ft_strnew_test();
-void	ft_strdel_test();
-void	ft_strclr_test();
-void	ft_striter_test();
-void	ft_striteri_test();
-char	*ft_strmap_test();
-char	*ft_strmapi_test();
-int		ft_strequ_test();
-int		ft_strnequ_test;
-char	*ft_strsub_test();
-char	*ft_strjoin_test();
-char	*ft_strtrim_test();
-char	**ft_strsplit_test();
-char	*ft_itoa_test();
-
-/*
- * Extra "fait maison" Functions
-*/
-void		ft_press_enter();
+void		test_ft_putchar();
 void		ft_newline();
-void		ft_printsep();
-int			ft_read();
-
-/*
-void	ft_freearray(char **array, int i);
-char	**ft_maketab(int len);
-char	*ft_makearray(int len);
-*/
+void		ft_printsep(int	c);
+void		ft_putchar_fd_test();
+void		ft_putstr_test();
+void		ft_putstr_fd_test();
+void		ft_putendl_test();
+void		ft_putendl_fd_test();
+void		ft_putnbr_test();
+void		ft_putnbr_fd_test();
+void		ft_strlen_test();
+void		ft_strjoin_test();
+int			ft_read(char *str, int lenght);
+void		ft_tolower_test();
+void		ft_toupper_test();
+void		ft_itoa_test();
+void		ft_isalpha_test();
+void		ft_press_enter();
+void		ft_bzero_test();
+void		ft_isalnum_test();
+void		ft_isascii_test();
+void		ft_isdigit_test();
+void		ft_isprint_test();
+void		ft_memccpy_test();
+void		ft_memcpy_test();
+void		ft_memset_test();
+void		ft_strcat_test();
+void		ft_strcat_test();
+void		ft_strchr_test();
+void		ft_strcmp_test();
+void		ft_strcpy_test();
+void		ft_strdup_test();
+void		ft_strlcat_test();
+void		ft_strncat_test();
+void		ft_strncmp_test();
+void		ft_strncpy_test();
+void		ft_strnstr_test();
+void		ft_strrchr_test();
+void		ft_strstr_test();
+void		ft_strequ_test();
+void		ft_atoi_test();
+void		ft_strnequ_test();
+void		ft_strtrim_test();
+void		ft_strclr_test();
+void		ft_strdel_test();
+void		ft_strnew_test();
+void		ft_strsub_test();
+void		ft_striter_test();
+void		ft_striteri_test();
+void		ft_memalloc_test();
+void		ft_memchr_test();
+void		ft_memcmp_test();
+void		ft_memdel_test();
+void		ft_memmove_test();
+void		ft_strmap_test();
+void		ft_strmapi_test();
+void		ft_strsplit_test();
 
 #endif

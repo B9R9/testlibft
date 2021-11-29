@@ -6,11 +6,10 @@
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 20:53:57 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/28 15:27:49 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/11/29 18:02:13 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include "testlibft.h"
 
 static void			ft_print(char **tabstr)
@@ -27,7 +26,7 @@ static void			ft_print(char **tabstr)
 		free(tabstr[i]);
 		i++;
 	}
-	tabstr = NUL
+	tabstr = NULL;
 }
 
 void	strsplit_test()		
