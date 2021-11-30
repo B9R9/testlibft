@@ -68,7 +68,7 @@ all: $(NAME) $(TEST)
 
 $(NAME):
 	@echo "Compiling..."
-	$(CC) $(CCFLAGS) -c $(FILES)
+	$(CC) $(CCFLAGS) -c $(SRC)*.c
 	@echo "Creation of libft.a"
 	ar rc $(NAME) *.o
 	@echo "Libft.h created."
