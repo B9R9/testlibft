@@ -17,9 +17,11 @@ git@github.com:B9R9/testlibft.git
 ```
 
 Paste your libft files in the srcs directory.
+
 <img src="./img/img_two.png" width="50%"/>
 
 Add your header files to the tests directory.
+
 <img src="./img/img_three.png" width="50%"/>  
 
 Launch the program
